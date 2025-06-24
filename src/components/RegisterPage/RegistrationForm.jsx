@@ -1,5 +1,7 @@
 import React from 'react';
 import images from '../assets/images';
+import TermsAndConditions from './TermsAndConditions';
+
 
 const RegistrationForm = ({ onSubmit, isLoading }) => {
   const [formData, setFormData] = React.useState({
